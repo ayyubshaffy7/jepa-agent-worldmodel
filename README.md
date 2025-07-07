@@ -85,12 +85,6 @@ python main.py
 
 The evaluation script trains linear probes on learned representations to predict agent coordinates, providing a measure of representation quality.
 
-## Limitations and Future Work
-
-The model shows clear limitations on wall collision dynamics and long-horizon prediction. Wall interactions represent a significant challenge where simple prediction fails. Long-horizon accuracy degrades as expected, suggesting the need for more sophisticated temporal modeling or hierarchical approaches.
-
-Future directions include investigating attention mechanisms for long-range dependencies, exploring hierarchical representations for multi-scale prediction, and extending to more complex environments with multiple objects.
-
 ## Repository Structure
 
 ```
